@@ -1,3 +1,6 @@
+#Dada uma sequência de números inteiros diferentes de zero,
+# terminada por um zero, calcular a sua soma.
+
 def main():
     entrada = int(input('Digite um numero para a soma: '))
     soma = 0
