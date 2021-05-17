@@ -9,12 +9,15 @@ c = float(input('Digite o valor de c: '))
 
 delta = (b ** 2) - (4 * a * c)
 if delta < 0:
-  print('Essa equação não possui raizes reais!')
+    print('esta equação não possui raízes reais!')
 else:
-  x1 = (- b + math.sqrt(delta)) / (2 * a)
-  x2 = (- b - math.sqrt(delta)) / (2 * a)
+    x1 = (- b + math.sqrt(delta)) / (2 * a)
+    x2 = (- b - math.sqrt(delta)) / (2 * a)
 
-  if delta > 0:
-    print('Essa equação possui duas raizes reais: {:.2f} e {:.2f}'.format(x1, x2))
-  else:
-    print('Essa equação possui uma raiz real que é {}!'.format(x1))
+    if delta > 0:
+        if x1 < x2:
+            print('as raízes da equação são {:.2f} e {:.2f}'.format(x1, x2))
+        else:
+            print('as raízes da equação são {:.2f} e {:.2f}'.format(x2, x1))
+    else:
+        print('a raiz desta equação é {}!'.format(x1))
