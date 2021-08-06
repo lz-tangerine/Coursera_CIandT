@@ -8,3 +8,4 @@ print(f'Os 10 primeiros termos são: ')
 for n in range(primeiro_termo, decimo, razao):
     print(n, end=' → ')
 print('Fim')
+

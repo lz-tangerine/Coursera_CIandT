@@ -1,5 +1,7 @@
 n = int(input('Digite o valor de n: '))
-fatorial = n * (n - 1)
-print(fatorial)
-
-
+c = n
+f = 1
+while c > 0:
+    f *= c
+    c -= 1
+print(f)
