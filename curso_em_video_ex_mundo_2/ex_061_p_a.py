@@ -9,4 +9,3 @@ while cont < 10:
     primeiro_termo += razao
     cont += 1
 print('Fim')
-
