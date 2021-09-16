@@ -15,3 +15,6 @@ while True:
         break
     soma += valor
 
+n = 'uber'
+if n[0] in 'aeiou':
+    print(n)
